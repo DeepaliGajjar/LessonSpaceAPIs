@@ -18,8 +18,8 @@ export class ApisService {
     "id":"English Session",
     "user":{"name":"Rachel"},
     "timeouts": {
-      "not_after": "2020-07-09T06:20:27.615Z",
-      "not_before": "2020-07-09T06:20:27.615Z"
+      "not_after": "2020-07-09T12:30:00+05:30",
+      "not_before": "2020-07-09T12:45:00+05:30"
     }
   }
   constructor(private http:HttpClient) { }
