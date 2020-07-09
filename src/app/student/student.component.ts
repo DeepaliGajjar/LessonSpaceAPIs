@@ -13,6 +13,6 @@ export class StudentComponent implements OnInit {
   RoomURL = "https://www.thelessonspace.com/space/"+this.roomid
 
   ngOnInit(): void {
-    console.log(localStorage.getItem("roomId"))
+    console.log(localStorage.getItem("roomId"));
   }
 }
