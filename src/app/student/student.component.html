@@ -1,0 +1,8 @@
+
+<div class="container mt-5 text-center">
+    <h1>Student</h1>
+    <div class="mt-5">
+        <h4 *ngIf="!roomid">You dont have any sessions to join</h4>
+        <a *ngIf="roomid" href="session"><button  type="button"class="btn btn-info">Enter Session</button></a>
+    </div>
+</div>
